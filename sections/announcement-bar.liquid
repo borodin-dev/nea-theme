@@ -13,6 +13,7 @@
                     {% render 'icon-arrow' %}
                   {%- endif -%}
                 </p>
+                <p>The currency of this store is {{ shop.currency | upcase }}</p>
               </div>
           {%- if block.settings.link != blank -%}
             </a>
